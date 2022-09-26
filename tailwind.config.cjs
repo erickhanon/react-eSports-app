@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./src/**/*.tsx", "./index.html"],
   theme: {
+    fontFamily: {
+      sans: ["Poppins", "sans-serif"],
+    },
+
     extend: {
       colors: {
         primary: "#1e1e1e",
